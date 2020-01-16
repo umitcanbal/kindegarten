@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 1em 1em;
+    
+    
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 700;
+    margin-bottom: 0em;
+}
+
+h4 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 4em;
+}
+.mission {
+    background-color: #FFE964;
+    text-align: center;
+    color: #000;
+    
+}
+
+.about {
+    background-color: #fff;
+    color: #000;
+}
+
+.team {
+    background-color: #FF523D;
+}
+
+footer {
+    background-color: #223C88;
+    padding: 3em 20em;
+    
+}
+
+section {
+    
+    padding: 3em 20em;
+}
+
+
+
+.hero {
+    background-image: url(assignment/graphics/banner.jpg);
+    height: 65vh;
+    background-size: cover;
+    /* background-position: ; */
+    padding: 3em 20em;
+}
+
+.title {
+    width: 2em;
+}
+
+.team div {
+    text-align: center;
+}
+
+.team img {
+    width: 12em;
+}
+
+li {
+    list-style: none;
+
+}
+
+ul {
+    padding-left: 0;
+}
+
+li:nth-child(1) {
+    font-weight: bold;
+}
